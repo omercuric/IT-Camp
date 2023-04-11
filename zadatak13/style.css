@@ -1,0 +1,25 @@
+.box-1 {
+    width: 400px;
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 2%;
+    margin-left: 30px;
+
+}
+.container {
+    display: flex;
+}
+.slika1 {
+    width: 100%;
+    height: 33.3%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1200px-Altja_j%C3%B5gi_Lahemaal.jpg);
+}
+.footer1 {
+    position: absolute;
+    bottom: 20px;
+    padding-left: 20px;
+}
+.main1 h1 {
+    text-decoration: none;
+    font-size: 35px;
+}

@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(231, 229, 224);
+    color: black;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    
+}
+
+.box-1 {
+    background-color: coral;
+    border-right: 5px red solid;
+    border-left: 5px green solid;
+    border-top: 5px yellow dashed;
+    border-bottom: 5px black dashed;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    margin: 20px;
+    
+    
+}
+.box-1 h1 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
+
+.box-2 {
+    border:  3px dotted #555555;
+    padding: 20px;
+    margin: 20px 0;
+}
+.categories {
+    border: 1px gray solid;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.categories h2 {
+    text-align: center;
+}
+.categories ul {
+    padding: 0px;
+    list-style: none;
+}
+.categories li {
+    padding-bottom: 6px;
+    border-bottom: dotted 1px black;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+unutar 3 diva jos 3 diva i forma

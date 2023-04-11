@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+button {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 3px;
+    background-color: rgb(219,159,159);
+    border: 10px solid brown;
+    border-radius: 10px;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    
+}
+button:hover {
+    transform: scaleX(1.5);
+}

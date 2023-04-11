@@ -1,0 +1,27 @@
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+h1 {
+    width: 500px;
+    background-color: rgb(186,210,235);
+    color: rgb(54,120,183);
+}
+.container {
+    display: flex;
+}
+.plava {
+    color: rgb(108, 160, 215) ;
+}
+.heading1 {
+    
+}
+.font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tplava {
+    color: rgb(27, 65, 107) ;
+} 
+.slika {
+    padding: 5px;
+}

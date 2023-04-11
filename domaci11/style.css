@@ -1,0 +1,53 @@
+.body {
+    align-items: center;
+}
+.container {
+    background-color: aquamarine;
+    
+}
+.box1 {
+    display: flex;
+    width: 500px;
+    border: 3px dashed black;
+    margin-bottom: 30px;
+    background-color: cornflowerblue;
+    
+}
+.first {
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 30px;
+    background-color: burlywood;
+    
+}
+.second {
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 30px;
+    background-color: darkcyan;
+
+}
+.third {
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 30px;
+    background-color: rgb(91, 32, 218);
+}
+.box2 {
+    display: flex;
+    width: 500px;
+    border: 3px dashed black;
+    margin-bottom: 30px;
+    background-color: chartreuse;
+}
+.box3 {
+    display: flex;
+    width: 500px;
+    border: 3px dashed black;
+    margin-bottom: 30px;
+    background-color: coral;
+    
+}

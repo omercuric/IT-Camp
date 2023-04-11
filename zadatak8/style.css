@@ -1,0 +1,16 @@
+.KlasniNaziv {
+    background-color: darkcyan;
+}
+#NazivPoID {
+    background-color: darksalmon;
+}
+* {
+    color: blue;
+}
+p, h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.davud {
+    text-align: center;
+}

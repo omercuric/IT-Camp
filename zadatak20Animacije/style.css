@@ -1,0 +1,82 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-image: url(background-contact-us.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.lokacija {
+    width: 250px;
+    height: 500px;
+    border: 2px solid aliceblue;
+    background-color: aliceblue;
+    border-radius: 15px;
+    text-align: center;
+}
+.lok {
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+}
+.telefon {
+    width: 250px;
+    height: 500px;
+    border: 2px solid aliceblue;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+.email {
+    width: 250px;
+    height: 500px;
+    border: 2px solid aliceblue;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    /* 20% {
+      transform: translateY(0);
+    } */
+    40% {
+      transform: translateY(-100px);
+    }
+    /* 50% {
+      transform: translateY(0);
+    } */
+    60% {
+      transform: translateY(-15px);
+    }
+    /* 80% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(0);
+    } */
+  }
+  
+  .bounce {
+    animation-name: bounce;
+    animation-duration: 2s;
+  }
