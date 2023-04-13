@@ -2,6 +2,122 @@
     padding: 0;
     margin: 0;
 }
+
+@media (min-width:401px) and (max-width:800px) {
+    body {
+        background-color: burlywood;
+    }
+    header {
+        width: 100%;
+        height: 15vh;
+        background-color: cadetblue;
+    }
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.logo {
+    width: 50%;
+    height: 100%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.links {
+    width: 50%;
+    height: 100%;
+    border:  1px solid salmon;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoblock {
+    width: 35%;
+    height: 50%;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.block1 {
+    width: 8.5vw;
+    height: 2.5vh;
+    background-color: brown;
+}
+.block2 {
+    width: 8.5vw;
+    height: 2.5vh;
+    background-color: rgb(116, 165, 42);
+}
+.block3 {
+    width: 8.5vw;
+    height: 2.5vh;
+    background-color: rgb(56, 42, 165);
+}
+.block4 {
+    width: 8.5vw;
+    height: 2.5vh;
+    background-color: rgb(42, 165, 61);
+}
+.container {
+    width: 100%;
+    height: 50vh;
+    border: 2px solid red;
+}
+main {
+    background-color: greenyellow;
+}
+.input {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input input {
+    border-radius: 2%;
+}
+footer {
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+}
+.text {
+    width: 80%;
+    height: 10vh;
+    background-color: white;
+}
+section {
+    width: 100%;
+    height: 25vh;
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section1 {
+    width: 70%;
+    height: 5vh;
+    border: 1px solid black;
+}
+.section2 {
+    width: 70%;
+    height: 10vh;
+    border:2px solid red;
+}
+
+}
+
 @media (max-width:400px) {
     header {
         width: 100%;
@@ -116,5 +232,8 @@ footer {
     width: 80%;
     height: 10vh;
     background-color: white;
+}
+.input {
+    display: none;
 }
 }
